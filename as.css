@@ -1,0 +1,163 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height:50px;
+    background-color: black;
+    color: white;
+    /* position: fixed; */
+}
+nav span{
+    font-size: 24px;
+    font-weight: 600;
+    float: left;
+    margin: 10px;
+}
+nav ul{
+    font-size: 20px;
+    float:right;
+    width: 400px;
+    padding: 10px 20px;
+    list-style: none;
+}
+nav ul li{
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+nav ul li:hover{
+    background-color: peru;
+}
+
+.ground{
+    width: 100%;
+    height: 400px;
+    background-image: url(img/Nuuk-psychiatric-unit-White-Arkitekter-03-16.9-1680x945.jpg);
+}
+.st, .nd, .rd{
+    width: 200px;
+    height: 300px;
+    background-color: peru	;
+    float: right;
+    margin: 10px;
+    text-align: center;
+    color: beige;
+    padding: 7px;
+    border-radius: 20px;
+}
+main{
+    background-color: rgb(2, 32, 32);
+    width: 100%;
+    height: auto;
+}
+.introduction{
+    margin-top: 10px;
+    color: rgb(55, 100, 100);
+    width: 100%;
+    height: 150px;
+}
+img{
+    width: 400px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+}
+.method{
+    margin-top: 150px;
+    padding-left: 600px;
+    color: rgb(55, 100, 100);
+    width: 100%;
+    height: 300px;
+    text-align: left;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.method img{
+    width: 400px;
+    height: 200px;
+    float: right;
+}
+.btn{
+    text-align: center;
+    width: 100%;
+}
+.btn button{
+background-color: peru;
+border-color: peru;
+border-radius: 80px;
+width: 150px;
+height: 100px;
+margin-top: 30px;
+font-size: 15px;
+}
+.p3{
+text-align: center;
+color: rgb(55, 100, 100);
+margin-top: 50px;
+font-size: 24px;
+}
+.logo{
+    width: 100%;
+    height: 800px;
+}
+.logo img{
+width: 250px;
+height: 80px;
+margin: 45px;
+ margin-right: 30px;
+}
+.logo .last{
+    margin-left: 310px;
+}
+footer{
+   
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    color: beige;
+    background-color: rgb(55, 100, 100);
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex-basis: 33.33%;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li {
+    list-style-type: none;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: beige;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+hr{
+    width: 50%;
+   margin-left: 350px;
+   border: solid rgb(2, 32, 32) 0.5px;
+   margin-top: 5px;
+}
